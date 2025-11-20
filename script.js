@@ -35,10 +35,10 @@ function login() {
 //age
 function displayAge() {
     const birthDate = new Date("2001-11-21");
-    const today = new Date("2024-11-21");
+    const today = new Date("2025-11-21");
     let age = today.getFullYear() - birthDate.getFullYear();
 
-    document.getElementById("age").textContent = `Once again Happy ${age}rd Birthday my dearest! 🎉`
+    document.getElementById("age").textContent = `Once again Happy ${age}th Birthday my dearest! 🎉`
 }
 
 //balloons
